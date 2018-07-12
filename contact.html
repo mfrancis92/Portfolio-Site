@@ -29,16 +29,20 @@
         </section>
         <form action="#" method="GET" name="Contact">
             <div>
-                <label for="fullName">Name:</label>
-                <input type="text" id="fullName" name="fullName">    
+                <label for="fullName"> Please enter your name*</label>
+                <input type="text" id="fullName" name="fullName" required>    
             </div>
             <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">    
+                <label for="comment"> Please add your question* </label>
+                <textarea id="comment" name="comment" required></textarea>
             </div>
             <div>
-                <label for="comment"> Comments/Questions: </label>
-                <textarea id="comment" name="comment"></textarea>
+                <label for="email">Please enter your email*</label>
+                <input type="email" id="email" name="email" required>    
+            </div>
+            <div>
+                <label for="phone">Please enter your phone number</label>
+                <input type="email" id="phone" name="phone">    
             </div>
             <button type="submit">Submit</button>
         </form>    

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Montell Francis | GitHub</title>
+    <link rel="stylesheet" href="lib/css/normalize.css">
+    <link rel="stylesheet" href="lib/css/main.css">
 </head>
 <body>
     <header>
@@ -12,46 +14,41 @@
             <h2>Web Developer</h2>    
         </a>
         <nav>
-            <a href="index.html"><li>Home</li></a>
-            <a href="biography.html"><li>Biography</li></a>
-            <a href="resume.html"><li>Resume</li></a>
-            <a href="#"><li>GitHub</li></a>
-            <a href="gallery.html"><li>Gallery</li></a>
-            <a href="contact.html"><li>Contact</li></a>
-        </nav>    
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </nav>   
     </header>
     <main>
-        <section>
-            <figure>
-                <img src="lib/img/gateway.png">
-                <figcaption>This is my gateway project from the Road To Hire Gateway Academy.</figcaption>
-            </figure> 
-            <form action="#" method="GET" name="github">
-                <a href="https://mfrancis92.github.io/gateway_project/" target="_blank">
-                    <button type="button">View</button>
-                </a>    
-            </form>    
-        </section>
-        <section>
-            <figure>
-                <img src="lib/img/americanFlag.png">
-                <figcaption>This is an assignment from my weekly challenges. American Flag made with html and css.</figcaption>
-            </figure> 
-            <form action="#" method="GET" name="challenges">
-                <a href="https://github.com/Code2Hire/submit-weekly-challenges-mfrancis92" target="_blank">
-                    <button type="button">View</button>
-                </a>    
-            </form>    
-            </section>
-        <a href="https://github.com/Code2Hire/submit-weekly-challenges-mfrancis92"></a>
+        <figure>
+            <img src="lib/img/gateway.png">
+            <figcaption>This is my gateway project from the Road To Hire Gateway Academy.</figcaption>
+        </figure> 
+        <form action="https://mfrancis92.github.io/gateway_project/" method="GET" name="github" target="_blank">
+            <input type="submit" value="View">    
+        </form>
+        <figure>    
+            <img src="lib/img/americanFlag.png">
+            <figcaption>This is an assignment from my weekly challenges. American Flag made with html and css.</figcaption>
+        </figure> 
+        <form action="https://github.com/Code2Hire/submit-weekly-challenges-mfrancis92" method="GET" name="challenges" target="_blank">
+            <input type="submit" value="View">  
+        </form>
     </main>
     <footer>
-        <ul class="socialMedia">
-            <li><a href="https://www.facebook.com/montell.francis?ref=bookmarks"><img src="lib/img/fbicon.jpg" alt="Facebook" /></a></li>
-            <li><a href="https://www.instagram.com/nico_already/"><img src="lib/img/instaIcon.jpg" alt="Instagram" /></a></li>
-            <li><a href="http://road2hire.org/"><img src="lib/img/r2hicon.png" alt="Road To Hire" /></a></li>
-            <li><a href="https://www.linkedin.com/in/montell-francis-99024615b/"><img src="lib/img/lnicon.png" alt="Linkedin" /></a></li>
-        </ul>
+        <nav>
+            <ul class="socialMedia">
+                <li><a href="https://www.facebook.com/montell.francis?ref=bookmarks"><img src="lib/img/fbicon.jpg" alt="Facebook" /></a></li>
+                <li><a href="https://www.instagram.com/nico_already/"><img src="lib/img/instaIcon.jpg" alt="Instagram" /></a></li>
+                <li><a href="http://road2hire.org/"><img src="lib/img/r2hicon.png" alt="Road To Hire" /></a></li>
+                <li><a href="https://www.linkedin.com/in/montell-francis-99024615b/"><img src="lib/img/lnicon.png" alt="Linkedin" /></a></li>
+            </ul>    
+        </nav>
         <p>&copy; 2018 Montell Francis.</p>
     </footer>
 </body>

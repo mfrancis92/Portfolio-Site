@@ -9,12 +9,8 @@
 </head>
 <body>
     <header>
-        <a href="index.html" id="logo">
-                <h1>Montell Francis</h1>
-                <h2>Web Developer</h2>    
-        </a>
         <nav>
-            <ul>
+            <ul class="main-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="biography.html">Biography</a></li>
                 <li><a href="resume.html">Resume</a></li>
@@ -23,22 +19,15 @@
                 <li><a href="#">Contact</a></li>    
             </ul>
         </nav>    
-    </header>
+        </header>
     <main>
-        <h3>Contact</h3>
+        <h1>Contact</h1>
         <section>
-            <h4>Contact Details:</h4>
-            <a href="tel:704-430-3050">704-430-3050</a>
-            <a href="mailto:montelldfrancis@gmail.com">montelldfrancis@gmail.com</a>
         </section>
-        <form action="#" method="GET" name="Contact">
+        <form class="contact" action="#" method="GET" name="Contact">
             <div>
                 <label for="fullName"> Please enter your name*</label>
                 <input type="text" id="fullName" name="fullName" required>    
-            </div>
-            <div>
-                <label for="comment"> Please add your question* </label>
-                <textarea id="comment" name="comment" required></textarea>
             </div>
             <div>
                 <label for="email">Please enter your email*</label>
@@ -48,20 +37,23 @@
                 <label for="phone">Please enter your phone number</label>
                 <input type="tel" id="phone" name="phone">    
             </div>
+            <div>
+                <label for="comment"> Please add your question* </label>
+                <textarea id="comment" name="comment" required></textarea>
+                </div>
             <button type="submit">Submit</button>
         </form>    
     </main>
     <footer>
         <nav>
-            <ul class="socialMedia">
+            <ul class="social-media">
+                <li class="copyright"><p>&copy; 2018 Montell Francis.</p></li>
                 <li><a href="https://www.facebook.com/montell.francis?ref=bookmarks"><img src="lib/img/fbicon.jpg" alt="Facebook" /></a></li>
                 <li><a href="https://www.instagram.com/nico_already/"><img src="lib/img/instaIcon.jpg" alt="Instagram" /></a></li>
                 <li><a href="http://road2hire.org/"><img src="lib/img/r2hicon.png" alt="Road To Hire" /></a></li>
                 <li><a href="https://www.linkedin.com/in/montell-francis-99024615b/"><img src="lib/img/lnicon.png" alt="Linkedin" /></a></li>
             </ul>    
         </nav>
-        
-        <p>&copy; 2018 Montell Francis.</p>
     </footer>
     
 </body>
